@@ -58,7 +58,7 @@ FCA exhibited wery good results on the "70k+ Job Applicants Data (Human Resource
 ### Description
 Dataset contains information about the chemical composition of three types of wine. Target feature here is origin of wine, which contains of three classes.
 ### Preprocessing
-Here I faced with the same problem as in Iris Dataset. NeuralFCA can only solve the binary classification problem, so I choose another approach: I delete the smallest class. I binarised data by using median threshold (similar to mean threshold in 70k+ Job Applicants Data (Human Resource)). Then I selected the top 20 concepts and built NN using them. After learning, we have graph:
+Here I faced with the same problem as in Iris Dataset. NeuralFCA can only solve the binary classification problem, so I choose another approach: I delete the smallest class. I binarised data by using median threshold (similar to mean threshold in 70k+ Job Applicants Data (Human Resource)). Then I selected the top 50 concepts and built NN using them. After learning, we have graph:
 [[Wine](https://github.com/RomanGladkikh/OSDA/blob/main/NeuralFCA/images/wine_fitted.png)]
 ### Results
 
