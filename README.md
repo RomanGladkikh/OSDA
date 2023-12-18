@@ -24,6 +24,7 @@ LogisticRegression | 1.0 | 1.0 |
 **NeuralFCA** | 1.0 | 1.0 |
 
 FCA exhibited perfect results on the "Iris" dataset with Accuracy and F1 Score all at 1.0. This indicates that FCA perfectly classified samples in this balanced dataset. In comparison, other machine learning modules also showed high performance on this dataset.
+![alt text](https://github.com/RomanGladkikh/OSDA/blob/main/NeuralFCA/images/iris_fitted.png)
 
 ## Second dataset:  70k+ Job Applicants Data (Human Resource)
 ### Description
@@ -51,6 +52,7 @@ LogisticRegression | 0.820 | 0.818 |
 **NeuralFCA** | **0.823** | **0.824** |
 
 FCA exhibited wery good results on the "70k+ Job Applicants Data (Human Resource)" dataset with Accuracy and F1 Score 0.823 and 0.824. In comparison, other machine learning models showed worse results than NeuralFCA
+![alt text](https://github.com/RomanGladkikh/OSDA/blob/main/NeuralFCA/images/job_fitted.png)
 
 ## Third dataset: Wine
 ### Description
@@ -69,3 +71,4 @@ LogisticRegression | 0.925 | 0.924 |
 **NeuralFCA** | **0.974** | **0.976** |
 
 FCA exhibited wery good results on the "Wine" dataset with Accuracy and F1 Score 0.974 and 0.976. In comparison, other machine learning models showed much worse results than NeuralFCA
+![alt text](https://github.com/RomanGladkikh/OSDA/blob/main/NeuralFCA/images/wine_fitted.png)
